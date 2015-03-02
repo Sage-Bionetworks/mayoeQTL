@@ -5,7 +5,7 @@ In addition, this script synchronizes the sample ids between all the data frames
 
 Author: Benjamin A Logsdon (ben.logsdon@sagebase.org)
 
-#REQUIREMENTS:
+#Requirements:
 Synapse R client installed (https://www.synapse.org/#!Synapse:syn1834618)
 
 Have a synapse account (https://www.synapse.org/#!RegisterAccount:0)
@@ -15,10 +15,14 @@ Data access approval to MayoLOADGWAS data (https://www.synapse.org/#!Synapse:syn
 Data access approval to MayoEGWAS data (https://www.synapse.org/#!Synapse:syn2910255)
 
 #Instructions
-Open terminal
-
 clone repo into local directory
 
-change working directory to local directory
+``
+git clone https://github.com/blogsdon/mayoeQTL.git
+``
 
-run command ./grabMayoEGWASdata.sh
+run script
+
+``
+./grabMayoEGWASdata.sh
+``
