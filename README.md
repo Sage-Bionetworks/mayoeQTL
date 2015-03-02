@@ -15,7 +15,7 @@ Data access approval to MayoLOADGWAS data (https://www.synapse.org/#!Synapse:syn
 Data access approval to MayoEGWAS data (https://www.synapse.org/#!Synapse:syn2910255)
 
 #Instructions
-clone repo into local directory
+clone repo into a local directory
 
 ``
 git clone https://github.com/blogsdon/mayoeQTL.git
@@ -27,14 +27,16 @@ run script
 ./grabMayoEGWASdata.sh
 ``
 
-After script is run, all data will be downloaded into your local directory.  You can now open an R session in the newly created MayoEGWASAnalyses directory, and then source the loadEGWASdata.R script.  This will load the expression data, covariate data, and chromosome 22 for the cerebellum samples into the R session.
+After script is run, all data will be downloaded into your local directory into MayoEGWASAnalyses/.  You can now open an R session in the newly created MayoEGWASAnalyses directory, and then source the loadEGWASdata.R script.  This will load the expression data, covariate data, and chromosome 22 for the cerebellum samples into the R session.
 
 ``
 cd MayoEGWASAnalyses/
 ``
+
 ``
 R
 ``
+
 ``
 source('loadEGWASdata.R')
 ``
