@@ -31,6 +31,10 @@ After script is run, all data will be downloaded into your local directory.  You
 
 ``
 cd MayoEGWASAnalyses/
+``
+``
 R
+``
+``
 source('loadEGWASdata.R')
 ``
