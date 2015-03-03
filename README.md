@@ -30,7 +30,7 @@ run script
 After script is run, all data will be downloaded into your local directory into MayoEGWASAnalyses/.  You can now open an R session in the newly created MayoEGWASAnalyses directory, and then source the loadEGWASdata.R script.  This will load the expression data, covariate data, and chromosome 22 for the cerebellum samples into the R session.
 
 ``
-cd MayoEGWASAnalyses/
+cd MayoEGWASanalyses/
 ``
 
 ``
@@ -38,5 +38,5 @@ R
 ``
 
 ``
-source('loadEGWASdata.R')
+source('../loadEGWASdata.R')
 ``
