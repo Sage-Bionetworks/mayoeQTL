@@ -16,6 +16,8 @@ Data access approval to MayoLOADGWAS data (https://www.synapse.org/#!Synapse:syn
 
 Data access approval to MayoEGWAS data (https://www.synapse.org/#!Synapse:syn2910255)
 
+Unix like shell environment
+
 #Instructions
 clone repo into a local directory
 
