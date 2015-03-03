@@ -10,6 +10,8 @@ Synapse R client installed (https://www.synapse.org/#!Synapse:syn1834618)
 
 Have a synapse account (https://www.synapse.org/#!RegisterAccount:0)
 
+Have plink installed (http://pngu.mgh.harvard.edu/~purcell/plink/)
+
 Data access approval to MayoLOADGWAS data (https://www.synapse.org/#!Synapse:syn2954402)
 
 Data access approval to MayoEGWAS data (https://www.synapse.org/#!Synapse:syn2910255)
