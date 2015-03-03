@@ -44,3 +44,5 @@ R
 ``
 source('../loadEGWASdata.R')
 ``
+
+Once these scripts are run the data is stored in R as follows.  `cere_cov` contains the covariates for the cerebellum gene expression data, `gwas_cere_cov` contains the covariates for the genotype data for the cerebellum samples, `mayo_egwas_cere_data` contains the expression data for the cerebellum samples, and finally `mayo_geno_cere_22` contains the genotype data for the 22nd chromosome for the cerebellum samples.  Similarly, `tcx_cov` contains the covariates for the temporal cortex expression data,  `gwas_tcx_cov` contains the genotype covariates for the temporal cortex samples, and `mayo_egwas_tcx_data` conatins the expression data for the temporal cortex samples.  The `reorderGenotypes` function can be used to synchronize additional genotype data that can be read in from `MayoEGWASanalyses/cerebellumGenotypes` or `MayoEGWASanalyses/temporalCortexGenotypes` as shown in the `loadEGWASdata.R` script.
